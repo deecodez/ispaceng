@@ -1,0 +1,112 @@
+ .bg-col{
+height: 100%;
+background: #0C0714;
+width: 100%;
+overflow: hidden;
+}
+
+.links{
+  font-weight: 300;
+}
+
+.nav-bar, .bg-col-2{
+    background: #0C0714;
+    position: fixed;
+    width: 100% !important;
+    overflow-y: hidden;
+}
+
+.btn{
+display: flex;
+padding: 10px 10px;
+justify-content: center;
+align-items: center;
+gap: 1px;
+border-radius: 8px;
+background: #EC1C24;
+outline: none;
+border: none;
+color: white;
+}
+
+.nav-bar .text-white > li :hover{
+    color: rgb(130, 186, 234);
+}
+
+.nav-bar .mobile-menu-icon{
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .nav-bar .mobile-menu-icon{
+    display: block ;
+    background-color: white !important;
+    font-size: 1.5rem;
+  }
+}
+
+.nav-bar .links-mobile{
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .nav-bar .links-mobile{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+.nav-bar .hide-dropdown{
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear !important;
+}
+
+.nav-bar .show-dropdown{
+  height: 40rem;
+  overflow: hidden;
+  transition: all 0.5s linear !important;
+}
+
+.bugar{
+  background-color: #EC1C24;
+ 
+}
+
+.nav-bar .link-mobile{
+  background-color: rgba(192, 106, 106, 0.41);
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar .links {
+    display: none;
+  }
+
+
+  .nav-bar .ispace-img{
+    margin-left:1rem !important ;
+    width: 35% !important;
+  }
+
+  .nav-bar .bg-col-2{
+    width: 100% !important;
+    position: fixed !important;
+  }
+
+   .nav-bar .bg-col{
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.company-bg{
+    background: #4F4F4F;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 500px) {
+    .comp-sec{
+        display: flex !important;
+        margin-left: 40px;
+    }
+
+    .comp-sec img{
+        width: 16% !important;
+    }
+
+    .company-bg{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 360px){
+   .comp-sec{
+        display: flex !important;
+        margin-left: 40px;
+        padding: 0;
+    }
+
+    .comp-sec img{
+        width: 17% !important;
+    }
+
+    .company-bg{
+        width: 100% !important;
+    }
+}
+
+
+
+
+

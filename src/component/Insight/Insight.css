@@ -1,0 +1,99 @@
+.card-w {
+  width: 21rem !important;
+  display: flex;
+  justify-content: space-between !important;
+  height: auto;
+  border-radius: 3px;
+border: 1px solid #29E289;
+background: #FFF;
+}
+
+
+.card-w img {
+  padding: 20px 20px;
+}
+
+.insight-bg{
+  background: #FFF6F6;
+  height: 100%;
+  padding: 130px 0px !important;
+}
+
+.insight-con{
+  font-weight: 500;
+}
+
+.card-t {
+  color: #10154e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-style: normal;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.date {
+  display: inline-flex;
+  padding: 5px 14px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #ffe7e6;
+  color: #ec1c24;
+}
+
+.small {
+  width: 55px;  
+}
+
+.btns {
+  color: #ec1c24;
+}
+
+.btns:hover {
+  color: #ec1c24;
+}
+
+strong {
+  display: none;
+}
+
+figure img {
+  display: none;
+}
+
+.slick-dots li.slick-active button:before {
+   color: red !important;
+}
+
+@media screen and (max-width: 500px){
+  .insight-bg{
+  width:100% !important;
+  margin-top: 0px;
+  }
+
+  .insight-con{
+   text-align: center;
+   overflow: hidden;
+   font-size: 30px;
+   margin-bottom: 15px;
+  }
+
+  .insight-p{
+    font-size: 16px !important;
+    width: 100%;
+  }
+
+  .card-w{
+ width: 100% !important;
+ height: 100% !important;
+  }
+
+  .btns{
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+

@@ -1,0 +1,134 @@
+.img{
+    width: 550px;
+    height: 550px;
+}
+
+.sev-h1{
+    font-weight: 500;
+}
+
+.sub-bg{
+    background-image: url("/public/Img/Img/Mask\ group\ \(1\).png");
+    background-position: center;
+    overflow: hidden;
+}
+
+.sev-h1-2{
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.card{
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.card2{
+    background-image: url("/public/Img/Img/girl\ 1.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card3{
+    background-image: url("/public/Img/Img/Mask\ group\ \(3\).png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card4{
+    background-image: url("/public/Img/Img/Mask\ group\ \(5\).png");
+     background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro{
+    height: 70px;
+    width: 550px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.intro > p{
+    visibility: hidden;
+    margin: 50px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.card:hover .intro{
+    height: 300px;
+    background-color: rgb(199, 46, 46);
+    overflow: hidden;
+}
+
+.card:hover .intro > p{
+    opacity: 1;
+    visibility: visible;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .sev-h1{
+        font-size: 25px;
+        overflow: hidden;
+        margin-top: 55px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .cre-top{
+        margin-bottom: 50px;
+    }
+
+    .sev-con{
+        display: block;
+    }
+
+.intro{
+    width: 100%;
+}
+
+    .sev-h1-2{
+        font-size: 40px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 360px){
+.sev-h1{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.sev-h1-2{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 390px){
+.sev-h1-2{
+    font-size: 20px;
+}
+
+.intro > p{
+    margin: 20px;
+}
+}
+
+@media screen and (max-width: 414px){
+.sev-h1-2{
+    font-size: 20px;
+}
+
+.intro > p{
+    margin: 20px;
+}
+}

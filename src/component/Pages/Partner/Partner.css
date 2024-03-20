@@ -1,0 +1,15 @@
+ .partner-bg{
+    background-image: url("../../../../public/Img/Img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+ }
+
+ .p-bg{
+    background-color: #E0F6FF;
+    width: 100%;
+    height: 100%;
+ }

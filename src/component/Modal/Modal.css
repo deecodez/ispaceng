@@ -1,0 +1,72 @@
+
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.close-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 7px;
+    background-color: rgb(231, 55, 55);
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    padding: 20px 40px;
+}
+
+form input, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    outline-color: rgb(165, 23, 23) !important;
+    outline-width: 1px;
+    border-radius: 8px;
+}
+
+form span{
+    color: rgb(240, 22, 22) !important;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "kanit";
+}
+
+form button{
+    margin-left: 25%;
+    margin-top: 6px;
+}
+
+.send-btn{
+    width: 150px;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 7px;
+    background-color: rgb(233, 57, 57);
+}
+@media screen and (max-width: 390px){
+    .send-btn{
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .send-btn{
+        margin-left: 5rem;
+    }
+}
+
