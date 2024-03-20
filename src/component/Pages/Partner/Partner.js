@@ -81,7 +81,7 @@ const Partner = () => {
       </div>
 
       <div className=' items-center md:my-10'>
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] section-2 text-[52px] part-h ss:leading-[10px]  truncate ml-20'>
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] section-2 section-3 text-[52px] part-h ss:leading-[10px]  truncate ml-20'>
             Why Partner with <br/>
           <span className='text-rose-800'>iSpace?</span>
         </h1>   

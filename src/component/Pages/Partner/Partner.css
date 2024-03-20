@@ -28,6 +28,7 @@
 
     .p-bg{
         padding-right: 0px;
+        padding-bottom: 20px;
     }
 
     .sec-h{
@@ -35,8 +36,16 @@
         width: 100%;
     }
 
+    .section-3{
+     text-align: center;
+     padding: 0px;
+     margin-left: 0px !important;
+     font-size: 30px;
+    }
+
     .section-2{
-        margin-left: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 20px;
     }
  }
