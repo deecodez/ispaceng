@@ -30,7 +30,7 @@ const Partner = () => {
         </div>
 
         <div className='mt-10'>
-        <a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdnz6jihwbh7mgRtNQTVmxgJ9C4G0HbvhFr3JOY7cGs-BU6RQ/viewform' target='blank'>
             <button className='flex btn items-center'>
                 Become a Partner <img src='/Img/Img/Group 150.png' alt="partner" className='mt-1 w-[16%] ml-2'/>
             </button>
@@ -72,7 +72,7 @@ const Partner = () => {
         </div>
 
         <div className='mt-10'>
-        <a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdnz6jihwbh7mgRtNQTVmxgJ9C4G0HbvhFr3JOY7cGs-BU6RQ/viewform' target='blank'>
             <button className='flex btn items-center'>
                 Become a Partner <img src='/Img/Img/Group 150.png' alt="partner" className='mt-1 w-[16%] ml-2'/>
             </button>
