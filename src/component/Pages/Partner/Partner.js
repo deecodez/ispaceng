@@ -94,7 +94,7 @@ const Partner = () => {
                     <img  src='/Img/Img/1.png' alt="one" className='w-[70%]'/>
                </div>
                 <div>
-                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2'>Profitable collaboration</h2>
+                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2 sm'>Profitable collaboration</h2>
                     <p className='font-poppins ss:text-[72px]'>
                         Enjoy an agreed percentage on new clients brought in through <br/>
                         your efforts, ensuring a mutually beneficial Partnership where your <br/>
@@ -108,7 +108,7 @@ const Partner = () => {
                     <img  src='/Img/Img/2.png' alt="one" className='w-[70%]'/>
                </div>
                 <div>
-                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2'>Networking Hub</h2>
+                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2 sm'>Networking Hub</h2>
                     <p className='font-poppins ss:text-[72px]'>
                        Tap into our extensive partner network to connect with like-minded <br/>
                        professionals, fostering meaningful relationships and opening <br/>
@@ -122,7 +122,7 @@ const Partner = () => {
                     <img  src='/Img/Img/3.png' alt="one" className='w-[70%]'/>
                </div>
                 <div>
-                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2'>Strategic Campaign Development</h2>
+                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2 sm'>Strategic Campaign Development</h2>
                     <p className='font-poppins ss:text-[72px]'>
                        Partner with us to co-create and execute meticulously planned <br/>
                        marketing campaigns designed to deliver tangible results for your <br/>
@@ -136,7 +136,7 @@ const Partner = () => {
                     <img  src='/Img/Img/4.png' alt="one" className='w-[70%]'/>
                </div>
                 <div>
-                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2'>Authentic Branding</h2>
+                    <h2 className='font-poppins font-semibold ss:text-[72px] text-[20px] truncate mb-2 sm'>Authentic Branding</h2>
                     <p className='font-poppins ss:text-[72px]'>
                         Position yourself under the umbrella of a reputable marketing <br/>
                         agency like iSpace, leveraging our brand authority and credibility to <br/>
