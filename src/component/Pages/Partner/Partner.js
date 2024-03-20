@@ -12,7 +12,7 @@ const Partner = () => {
      <section id='home' className='flex md:flex-row flex-col sm:px-20 px-6'>
       <div className='flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6'>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px]  ss:leading-[10px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-semibold  part-h ss:text-[72px] text-[52px]  ss:leading-[10px] leading-[75px]'>
            <br />
           Are you A Digital <br/>
           Marketer, <span className='text-rose-800'>Looking To <br/>
@@ -39,7 +39,7 @@ const Partner = () => {
       </div>
 
       <div className='flex-1 flex flex justify-center items-center md:my-10 my-10 relative'>
-        <img src="/Img/Img/Frame.png" alt='frame' className='w-[85%] mt-20'/>
+        <img src="/Img/Img/Frame.png" alt='frame' className='w-[85%] mt-20 ppl'/>
 
         <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'></div>
         <div className='absolute z-[1] w-[40%] h-[80%] rounded-full bottom-40 white__gradient'></div>
@@ -52,10 +52,10 @@ const Partner = () => {
      </div>
 
     <div className='pr-10 p-bg'>
-     <section id='home' className='flex md:flex-row flex-col p-20 sm:px-20 px-6'>
+     <section id='home' className='flex md:flex-row flex-col p-20 sec-h sm:px-20 px-6'>
       <div className='flex-1 flex items-start flex-col xl:px-0 sm:px-16 px-6'>
         <div className='flex flex-row justify-between items-center w-full'>
-          <p className=' font-poppins  text-[18px]  ss:leading-[10px] mt-5'>
+          <p className=' font-poppins  text-[18px]  ss:leading-[10px] mt-5 part-p'>
             At iSpace, we understand the power of collaboration in driving
             success. Our Paid Marketing Partnership Program is tailored to
             cultivate a dynamic network of marketing professionals like
@@ -81,7 +81,7 @@ const Partner = () => {
       </div>
 
       <div className=' items-center md:my-10'>
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px]  ss:leading-[10px]  truncate ml-20'>
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] section-2 text-[52px] part-h ss:leading-[10px]  truncate ml-20'>
             Why Partner with <br/>
           <span className='text-rose-800'>iSpace?</span>
         </h1>   
@@ -89,7 +89,7 @@ const Partner = () => {
 
 
         <div>
-            <div className=' flex items-center p-2 bg-white ml-20 rounded mt-4'>
+            <div className=' flex items-center p-2 bg-white section-2 ml-20 rounded mt-4'>
                <div>
                     <img  src='/Img/Img/1.png' alt="one" className='w-[70%]'/>
                </div>
@@ -103,7 +103,7 @@ const Partner = () => {
                 </div>
             </div>
 
-            <div className=' flex items-center p-2  bg-white ml-20 rounded mt-4'>
+            <div className=' flex items-center p-2  bg-white section-2 ml-20 rounded mt-4'>
                <div>
                     <img  src='/Img/Img/2.png' alt="one" className='w-[70%]'/>
                </div>
@@ -117,7 +117,7 @@ const Partner = () => {
                 </div>
             </div>
 
-            <div className=' flex items-center p-2  bg-white ml-20 rounded mt-4'>
+            <div className=' flex items-center p-2  bg-white section-2 ml-20 rounded mt-4'>
                <div>
                     <img  src='/Img/Img/3.png' alt="one" className='w-[70%]'/>
                </div>
@@ -131,7 +131,7 @@ const Partner = () => {
                 </div>
             </div>
 
-            <div className=' flex items-center p-2  bg-white ml-20 rounded mt-4'>
+            <div className=' flex items-center p-2  bg-white section-2 ml-20 rounded mt-4'>
                <div>
                     <img  src='/Img/Img/4.png' alt="one" className='w-[70%]'/>
                </div>
