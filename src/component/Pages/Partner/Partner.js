@@ -56,14 +56,12 @@ const Partner = () => {
       <div className='flex-1 flex items-start flex-col xl:px-0 sm:px-16 px-6'>
         <div className='flex flex-row justify-between items-center w-full'>
           <p className=' font-poppins  text-[18px]  ss:leading-[10px] mt-5 part-p'>
-            At iSpace, we understand the power of collaboration in driving
-            success. Our Paid Marketing Partnership Program is tailored to
-            cultivate a dynamic network of marketing professionals like
-            yourself to reach millions of prospects and brands in need of 
-            our services-Brand management, web & App Management,
-            Marketing (digital and offline), Branding and creative designs, 
-            Activation campaigns, Business discovery sessions,
-            Storytelling & Commercials.
+          At iSpace, we understand the power of collaboration in driving success. 
+          Our Paid Marketing Partnership Program is tailored to cultivate 
+          a dynamic network of marketing professionals like yourself to reach millions
+          of prospects and brands in need of our services brand management, 
+          web & app management, marketing (digital and offline), branding and creative designs,
+          activation campaigns, business discovery sessions, storytelling & commercials.
           </p>
         </div>
 
