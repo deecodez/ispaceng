@@ -16,7 +16,7 @@ const Partner = () => {
            <br />
           Are you a Marketer, <br/>
          <span className='text-rose-800'>Looking To Partner With  A Marketing <br/>
-          Agency.
+          Agency
           </span>
           </h1>
         </div>
