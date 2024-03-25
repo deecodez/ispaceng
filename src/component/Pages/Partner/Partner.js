@@ -14,9 +14,9 @@ const Partner = () => {
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold  part-h ss:text-[72px] text-[52px]  ss:leading-[10px] leading-[75px]'>
            <br />
-          Are you A Digital <br/>
-          Marketer, <span className='text-rose-800'>Looking To <br/>
-          Partner With A Marketing Agency?
+          Are you a Marketer, <br/>
+         <span className='text-rose-800'>Looking To Partner With  A Marketing <br/>
+          Agency.
           </span>
           </h1>
         </div>
