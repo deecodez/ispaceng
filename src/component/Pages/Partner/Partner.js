@@ -25,7 +25,7 @@ const Partner = () => {
             <div className='line-red mt-2 ml-1 mr-5'></div>
             <p className='font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-2 text-text'>
           Welcome to the iSpace Paid Marketing Partnership <br/>
-          Program
+          Program!
           </p>
         </div>
 
