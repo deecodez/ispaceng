@@ -6,11 +6,17 @@ import { Helmet } from 'react-helmet-async';
 import AOS from 'aos';
 import SEO from '../../SEO';
 import 'aos/dist/aos.css';
+import { initGA } from '../../analytics';
 
 export const AboutUs = () => {
   useEffect(() => {
+    initGA();
+  }, []);
+  
+  useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  
   return (
     <Fragment>
       <Helmet>

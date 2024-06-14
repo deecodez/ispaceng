@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Fragment , useEffect} from 'react';
+import { initGA } from './component/analytics';
 import {Home} from './Home';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { Projects } from './component/Pages/Projects/Projects';
@@ -24,7 +25,12 @@ const ScrollToTop = () => {
   return null;
 };
 
-function App() { 
+const App = () => { 
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <HelmetProvider>
       <Fragment>

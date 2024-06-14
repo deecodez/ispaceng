@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import './Projects.css'
 import { Navbar } from '../../Navbar/Navbar'
 import Insight from '../../Insight/Insight'
@@ -7,8 +7,14 @@ import{BsArrowUpRight } from "react-icons/bs"
 import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet-async';
 import SEO from '../../SEO';
+import { initGA } from '../../analytics'
 
 export const Projects = () => {
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <Fragment>
       <Helmet>

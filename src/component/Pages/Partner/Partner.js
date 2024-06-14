@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Navbar } from '../../Navbar/Navbar'
 import "./Partner.css";
 import { Footer } from '../../Footer/Footer';
+import { initGA } from '../../analytics';
 
 const Partner = () => {
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <>
     <div className=''>

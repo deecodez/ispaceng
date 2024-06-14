@@ -39,6 +39,7 @@ export const Testimonials = () => {
     ],
   };
 
+
   return (
     <Fragment>
       <div className='container flex flex-wrap items-center justify-center mx-auto md:px-28 justify-between md:flex-row'>

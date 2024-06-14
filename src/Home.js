@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { Navbar } from './component/Navbar/Navbar';
 import { Hero } from './component/Herosection/Hero';
 import '../src/component/Navbar/Navbar.css'
@@ -12,9 +12,15 @@ import Insights from './component/Insight/Insight';
 import { Footer } from './component/Footer/Footer';
 import { Helmet } from 'react-helmet-async';
 import { HelmetProvider } from 'react-helmet-async';
+import { initGA } from './component/analytics';
 
 
 export const Home = () => {
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <HelmetProvider>
       <Fragment>
